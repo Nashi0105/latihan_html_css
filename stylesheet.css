@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html li {
+    list-style: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 60px;
+    display: flex;
+}
+
+header h1,
+footer h1 {
+    margin: 0;
+    padding: 15px;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+header ul {
+    display: flex;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+header li {
+    line-height: 60px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+main {
+    height: 500px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+}
+
+main span {
+    color: rgb(255, 203, 105);
+}
+
+main h2 {
+    font-size: 34px;
+    font-weight: 100;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+}
+
+.tentang {
+    height: 350px;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.tentang h2 {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.tentang p {
+    margin: 0 150px;
+    line-height: 1.5;
+}
+
+.bagian-proyek {
+    height: 450px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.bagian-proyek h2 {
+    padding-bottom: 30px;
+}
+
+.wadah-proyek {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.kartu-proyek {
+    flex: auto;
+}
+
+.kartu-proyek img {
+    width: 250px;
+    height: auto;
+}
+
+form {
+    background-color: rgb(244, 244, 244);
+    height: 500px;
+    text-align: center;
+}
+
+form h2 {
+    padding-top: 100px;
+}
+
+.wadah-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input {
+    width: 60%;
+    margin: 15px auto;
+    padding: 10px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px hidden white ;
+}
+
+.pesan {
+    height: 50px;
+}
+
+.tombol-kirim {
+    background-color: rgba(249, 200, 109, 0.932);
+    padding: 10px 120px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+footer {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+footer ul {
+    padding: 20px;
+    margin: 0;
+}
+
+footer li {
+    font-size: 12px;
+    padding: 5px;
+}
